@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "../../br-calculator/node_modules/.bin/react-scripts start",
-    "predeploy": "npm run buil",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "../../br-calculator/node_modules/.bin/react-scripts build",
     "test": "../../br-calculator/node_modules/.bin/react-scripts test",
