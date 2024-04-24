@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/br-calculator/static/css/main.bc8a18cc.css",
+    "main.js": "/br-calculator/static/js/main.12947284.js",
+    "static/js/463.2a75de16.chunk.js": "/br-calculator/static/js/463.2a75de16.chunk.js",
+    "static/media/BLADRMF_.TTF": "/br-calculator/static/media/BLADRMF_.0c7e2ce28555cce80449.TTF",
+    "index.html": "/br-calculator/index.html",
+    "main.bc8a18cc.css.map": "/br-calculator/static/css/main.bc8a18cc.css.map",
+    "main.12947284.js.map": "/br-calculator/static/js/main.12947284.js.map",
+    "463.2a75de16.chunk.js.map": "/br-calculator/static/js/463.2a75de16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc8a18cc.css",
+    "static/js/main.12947284.js"
+  ]
+}
