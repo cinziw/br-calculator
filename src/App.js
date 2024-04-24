@@ -58,8 +58,8 @@ function App() {
                       {showImage && (
                           <motion.img
                               className="image"
-                              src="/you-look-lonely.jpg"
-                              alt="Image"
+                              src={process.env.PUBLIC_URL + "/you-look-lonely.jpg"}
+                              alt="you look lonely"
                               initial={{ opacity: 0}} // Initial position and opacity
                               animate={{ opacity: 1}}
                               transition={{duration: 6}}// Exit animation
