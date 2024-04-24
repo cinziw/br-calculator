@@ -1,4 +1,5 @@
 {
+  "homepage": "http://cinziw.github.io/br-calculator",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +17,8 @@
   },
   "scripts": {
     "start": "../../br-calculator/node_modules/.bin/react-scripts start",
+    "predeploy": "npm run buil",
+    "deploy": "gh-pages -d build",
     "build": "../../br-calculator/node_modules/.bin/react-scripts build",
     "test": "../../br-calculator/node_modules/.bin/react-scripts test",
     "eject": "../../br-calculator/node_modules/.bin/react-scripts eject"
@@ -31,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
