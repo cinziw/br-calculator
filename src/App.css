@@ -1,0 +1,90 @@
+* {
+  font-family: "MyFont", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+          "wdth" 100;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('BLADRMF_.TTF') format('truetype'); /* Adjust the path to match the location of your font file */
+  /* You can also specify other font properties like font-weight and font-style here */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'MyFont', sans-serif;
+  color: #02d1e7;
+}
+
+.title-image {
+  width: 230px;
+}
+
+.formula-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  width: 50px;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+.input:focus {
+  border-color: #107d88;
+}
+
+.operator {
+  font-size: 25px;
+  margin: 0 10px;
+  font-weight: bold;
+  color: #02d1e7;
+}
+
+.submit {
+  background-color: #d54000;
+  color: white;
+  border: none;
+  padding: 7px 20px 7px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'MyFont', sans-serif;
+  font-weight: normal;
+  transition: background-color 0.3s ease;
+  margin-left: 20px;
+}
+
+.submit:hover {
+  background-color: #cb5e2f;
+}
+
+.loading-symbol {
+  margin: 100px 0;
+}
+
+.image {
+  width: 60vh;
+  margin: 30px 0;
+}
+
